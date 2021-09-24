@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    android:paddingBottom="40dp"
+    tools:context=".MainActivity3">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Menú"
+       android:textSize="60sp"
+       android:textStyle="bold"
+       android:textAlignment="center"
+       android:textColor="#000"
+       android:layout_marginTop="80dp"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elija una opción"
+        android:textAlignment="center"
+        android:textColor="#433F3F"
+        android:textSize="20sp"
+        android:background="@color/fondoTransparente1"
+        android:textStyle="bold"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@color/fondoTransparente2"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/icono1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/icono2" />
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/icono3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/icono4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/icono5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/icono6"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/icono7"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconoandroid"
+        android:layout_marginTop="60dp"
+    />
+
+</LinearLayout>

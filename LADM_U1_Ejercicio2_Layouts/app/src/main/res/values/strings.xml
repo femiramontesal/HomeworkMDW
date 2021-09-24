@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LADM_U1_Ejercicio2_Layouts</string>
+    <array name="menuppal">
+        <item>FrameLayout</item>
+        <item>LinearLayout</item>
+        <item>GridLayout</item>
+        <item>TableLayout</item>
+        <item>RelativeLayout</item>
+        <item>Salir</item>
+    </array>
+</resources>
