@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#110012"
+    tools:context=".MainActivity7">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/retro"
+        android:layout_gravity="center"
+        >
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Focus /"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Breathe /"
+        android:paddingTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Relax /"
+        android:paddingTop="60dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:text="04"
+        android:layout_gravity="end|top"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginTop="300dp"
+        android:text="05"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="320dp"
+        android:text="Hold"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="335dp"
+        android:text="your"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="350dp"
+        android:text="breath"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="350dp"
+        android:text="End now"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="40dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/puntos"
+        android:layout_gravity="left|center_vertical"
+        android:paddingBottom="410dp"
+
+
+        />
+</FrameLayout>

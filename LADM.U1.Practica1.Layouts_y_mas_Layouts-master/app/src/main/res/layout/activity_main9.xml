@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE6E6"
+    android:orientation="vertical"
+    tools:context=".MainActivity9">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destinos "
+            android:textSize="40sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="de nayarit "
+            android:textSize="40sp"
+            android:textStyle="normal"
+
+            />
+
+
+    </LinearLayout> <!-- Layout del titulo -->
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/lacruz" />
+
+                <TextView
+
+                    android:layout_marginTop="-18dp"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/redondo"
+                    android:text="La cruz de huanacaxtle"
+                    android:textSize="19sp"
+                    android:gravity="fill"
+                    android:paddingLeft="13dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/punta" />
+
+                <TextView
+
+                    android:layout_marginTop="-18dp"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/redondo"
+                    android:text="Punta de mita"
+                    android:textSize="19sp"
+                    android:gravity="fill"
+                    android:paddingLeft="35dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/sanblas" />
+
+                <TextView
+
+                    android:layout_marginTop="-18dp"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/redondo"
+                    android:text="San blas"
+                    android:textSize="19sp"
+                    android:gravity="fill"
+                    android:paddingLeft="33dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/sanpanchi" />
+
+                <TextView
+
+                    android:layout_marginTop="-18dp"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/redondo"
+                    android:text="San Pancho"
+                    android:textSize="19sp"
+                    android:gravity="fill"
+                    android:paddingLeft="33dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$460"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/calendario"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:text="3d20h            35mi"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginRight="-110dp"/>
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/distancia"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_marginBottom="-20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Al pisar Punta de Mita y estar frente al inmenso océano sobre blancas arenas de esta península, le dará una sensación de completa tranquilidad."
+        />
+
+    <TextView
+        android:padding="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vestidores, tiendas de artículos de golf, restaurante, bar, área de práctica y clases con profesionales son otros de los servicios que se ofrecen a los jugadores y visitantes."
+        />
+</LinearLayout>

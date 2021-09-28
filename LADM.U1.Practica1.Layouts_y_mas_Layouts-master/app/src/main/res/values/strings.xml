@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LADM_U1_Practica01</string>
+    <string name="_00_08_03_34">00:08 / 03:34</string>
+    <string name="re_record">Re-record</string>
+    <string name="next_step">Next Step</string>
+    <string name="pause">pause</string>
+    <string name="next">next</string>
+    <string name="repetir">repetir</string>
+    <string name="regresar">regresar</string>
+    <array name="menu">
+        <item>Pantalla 1</item>
+        <item>Pantalla 2</item>
+        <item>Pantalla 3</item>
+        <item>Pantalla 4</item>
+        <item>Pantalla 5</item>
+        <item>Pantalla 6</item>
+        <item>Pantalla 7</item>
+        <item>Pantalla 8</item>
+        <item>Salir</item>
+    </array>
+</resources>

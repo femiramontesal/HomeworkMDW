@@ -2,20 +2,30 @@ package mx.tecnm.tepic.u1_ejercicio_inputsdinamicos
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Environment
 import android.text.InputType
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_main.*
+import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
     //declaramos los ArL
     val vector = ArrayList<Data>()
     val nombres = ArrayList<String>()
 
+    var id = campoId.text.toString().toInt()
+    var nombre = campoNombre.text.toString()
+    var domicilio = campoDomicilio.text.toString()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
 
 
         btnEliminar.setOnClickListener {
@@ -27,13 +37,17 @@ class MainActivity : AppCompatActivity() {
             insertar()
         }
 
+        btnGuardar.setOnClickListener{
+           //
+        }
+
+
+
     }
 
     fun insertar(){
 
-        var id = campoId.text.toString().toInt()
-        var nombre = campoNombre.text.toString()
-        var domicilio = campoDomicilio.text.toString()
+
 
 
         //cualquiera de las 2 jala
@@ -65,5 +79,7 @@ class MainActivity : AppCompatActivity() {
             .show()
 
     }
+
+
 
 }
