@@ -72,7 +72,8 @@ class MainActivity : AppCompatActivity() {
         val vectorCamposTexto = ArrayList<EditText>()
         var total = (valor -1).toInt()
         (0..total).forEach{
-            val campoTexto = EditText(this)
+            val campoTexto = TextView(this)
+            campoTexto.text
             vectorCamposTexto.add(campoTexto)
             campoTexto.setHint("Valor ${it+1}")
             linearl.addView(campoTexto)
